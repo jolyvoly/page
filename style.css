@@ -33,8 +33,7 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
 .bar_box {height: 17px; width:90%; display:inline-block; background-color: rgba(19, 87, 64, 0.801); margin:5px 0; display: flex; flex-wrap: wrap;position: relative;}
 
-.bar7 {display:inline-block; width:100%; height:100%; background: rgb(124,113,56);
-background: linear-gradient(90deg, rgba(124,113,56,1) 0%, rgba(3,134,81,1) 100%);
+.bar7 {display:inline-block; width:100%; height:100%; 
 background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
 
 
