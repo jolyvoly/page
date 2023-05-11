@@ -35,23 +35,11 @@ body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 
 .bar7 {display:inline-block; width:100%; height:100%; 
 background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar6 {display:inline-block; width:85.72%; height:100%; background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar5 {display:inline-block; width:71.5%; height:100%; background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar4 {display:inline-block; width:57%; height:100%; background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar3 {display:inline-block; width:42.8%; height:100%; background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar2 {display:inline-block; width:28.56%; height:100%; background-color: #d34e36a1; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
-
-
 .bar1 {display:inline-block; width:14.28%; height:100%; background-color: #d34e3662;background: rgb(124,113,56);
 background: linear-gradient(90deg, rgba(124,113,56,1) 0%, rgba(3,134,81,1) 100%);
  margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
