@@ -53,7 +53,9 @@ background-color: #b43c6ea6; margin: 0; position:absolute; left: 0; top: 0; bott
 .bar2 {display:inline-block; width:28.56%; height:100%; background-color: #d34e36a1; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
 
 
-.bar1 {display:inline-block; width:14.28%; height:100%; background-color: #d34e3662; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
+.bar1 {display:inline-block; width:14.28%; height:100%; background-color: #d34e3662;background: rgb(124,113,56);
+background: linear-gradient(90deg, rgba(124,113,56,1) 0%, rgba(3,134,81,1) 100%);
+ margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
 
 
 .bar0 {display:inline-block; width:0%; height:100%; background-color: #e02200; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
