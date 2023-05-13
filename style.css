@@ -54,4 +54,6 @@ background-color: #019178; margin: 0; position:absolute; left: 0; top: 0; bottom
 table {width:150px ; background-color: rgba(255, 255, 255, 10%); font-size: 11pt;padding:0px; margin-top: 8px ;}
 table tr {margin: 0;padding: 0; border: 0px;}
 table th {background-color: rgb(0, 0, 0,60%); margin: 0; display: block;padding: 2px 0;}
-table td {padding:0 3px; font-weight: lighter; height:30px; word-wrap:break-word;}
+table td {padding:4px; font-weight: lighter; height:30px; word-wrap:break-word;}
+table tr td:first-child {height:2pt;}
+table tr:last-child {height:50px;font-size:10.5pt;vertical-align: top;line-height:20px ;}
