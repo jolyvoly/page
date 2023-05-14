@@ -16,7 +16,7 @@
 * {margin:0; padding:0;}
 li {list-style: none;}
 a {text-decoration: none; color:rgb(255, 255, 255);}
-html,body {color: rgba(232, 241, 234, 0.9);; font-family: 'NanumSquare';background-color: #111b16ce;}
+html,body {color: rgba(232, 241, 234, 0.9);; font-family: 'NanumSquare';background-color: #111b16;}
 body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
 img {width: 150px;height: 150px; background-color: rgb(100, 124, 122);}
 .box {width: 1000px; background: #203b3685; margin: 50px auto;display: flex; flex-wrap: wrap; justify-content:space-between;}    
