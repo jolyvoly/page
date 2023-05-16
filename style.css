@@ -51,7 +51,8 @@ background-color: #019178; margin: 0; position:absolute; left: 0; top: 0; bottom
 
 
 .now {text-align: right; width: 10%; margin:5px 0; line-height: 20px;display: inline-block;}
-.now0 {text-align: right; width: 10%; margin:5px 0; line-height: 20px;display: inline-block; color:#c91e00; font-weight: bold;}
+.now0 {text-align: right; width: 10%; margin:5px 0; line-height: 20px;display: inline-block; color:#c91e00; font-weight: 900;}
+.stat0 {font-weight: 800; color:#c91e00;   transform:rotate(180deg);}
 
 .have {margin: 0; padding: 0;}
 
