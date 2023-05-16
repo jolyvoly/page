@@ -47,10 +47,11 @@ background-color: #019178; margin: 0; position:absolute; left: 0; top: 0; bottom
  margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
 
 
-.bar0 {display:inline-block; width:0%; height:100%; background-color: #e02200; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
+.bar0 {display:inline-block; width:100%; height:100%; background-color: #c91e00; margin: 0; position:absolute; left: 0; top: 0; bottom: 0;}
 
 
 .now {text-align: right; width: 10%; margin:5px 0; line-height: 20px;display: inline-block;}
+.now0 {text-align: right; width: 10%; margin:5px 0; line-height: 20px;display: inline-block; color:#c91e00; font-weight: bold;}
 
 .have {margin: 0; padding: 0;}
 
