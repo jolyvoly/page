@@ -27,5 +27,3 @@ document.getElementById("item"+i).innerHTML = Itag + Name[i] + Ptag + Info[i] +"
 }
 
 
-
-
