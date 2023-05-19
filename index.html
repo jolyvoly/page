@@ -8,31 +8,32 @@
 <body>
     <section>
     <ul class="date" style="display:table; font-size: small; font-family: 'Courier New', Courier, monospace; margin:auto;list-style: inside;">
-        <b>데이터 기준: 05/19 9:59PM </b>
-        <li>5/19(금) 10:30PM 스토리 <권총 한 자루> 시작 전, 캐릭터들의 허기가 일괄 -1 됩니다. [상태이상:괴물화]에 걸린 캐릭터들은 금일 식량조달을 받아 허기가 차감되지 않습니다.</li>
+        <b>데이터 기준: 05/19 10:30PM </b>
+        <li>5/19(금) 10:30PM 스토리 <권총 한 자루>가 시작되어 캐릭터들의 허기가 일괄 -1 되었습니다. [상태이상:괴물화]에 걸린 캐릭터들은 금일 식량조달을 받아 허기가 차감되지 않습니다.</li>
         <li><스텟기록실>에는 스텟에 영향을 주는 아이템만 기록됩니다.아이템 이름 위에 커서를 올리면 사용 시 효과를 알 수 있습니다.</li>
         <li><i>스텟 게이지가 0이 되면 다시 회복할 수 없습니다.</i></li><li>정신 0 상태이상 ; 잠에 들지 못합니다. 보초서기를 하거나, 뜬 눈으로 밤을 지새워야합니다. [뜬 눈으로 밤새기] 체력 -1</li>
         <li>체력 0 ; 보초서기가 불가능합니다. 수면이 강제됩니다.</li>
     </ul>
 
     <div class="box">
-        <div class="c_box"><!-- .c_box 시작 -->
-            <img src="샤이안.jpg"/> <!-- 프로필 이미지 -->
-            <div class="name">샤이언 마허</div><!-- 이름 -->
+        <div class="c_box" style="color:#797676;"><!-- .c_box 시작 -->
+            <img src="샤이안.jpg" style="filter:grayscale(100%) brightness(50%);"/> <!-- 프로필 이미지 -->
+            <div class="name" style="color:#797676;">샤이언 마허</div><!-- 이름 -->
             <div class="state">
                 <div class="hunger"><!-- 허기 -->
-                    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
+                    <span style="font-weight:800; color:797676;">허기</span><div class="bar_box"><div class="bar0" style="background-color:#575757;"></div></div><span class="now0" style="color:#575757;">0</span>
                 </div>
                 <div class="health"><!-- 체력 -->
-                    체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                    체력<div class="bar_box" style="background-color:#3d473c;"><div class="bar3" style="background-color:#575757;"></div></div><span class="now">3</span>
                 </div>
                 <div class="mental"><!-- 정신 -->
-                    <span class="stat0">정신</span><div class="bar_box"><div class="bar0"></div></div><span class="now0">0</span>
+                    <span class="stat0"  style="font-weight:800; color:#797676;">정신</span><div class="bar_box"><div class="bar0"  style="background-color:#575757;"></div></div><span class="now0" style="color:#575757;">0</span>
                 </div>
             </div><!-- .state(스텟) 끝 -->
             <div class="have">
                 <table>
-                    <th>상태</th><tr><td style="text-align:center"><span>수면 불가</span>
+                    <th>상태</th><tr><td style="text-align:center; font-weight:900; color:#ec482b;">
+                        <span>사망</span>
                     </td></tr>
                     <th>소지품</th><tr><td></td></tr>
                 </table>
@@ -44,7 +45,7 @@
         <div class="name">프레드리히 L.빌트하임</div><!-- 이름 -->
         <div class="state" data-num="7">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar5"></div></div><span class="now">5</span>
@@ -67,7 +68,7 @@
         <div class="name">스누피 울리엘</div><!-- 이름 -->
         <div class="state" data-num="7">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar6"></div></div><span class="now">6</span>
@@ -90,7 +91,7 @@
         <div class="name">빅토리아 베스파</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -119,7 +120,7 @@
         <div class="name">노아</div><!-- 이름 -->
         <div class="state" data-num="7">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -172,7 +173,7 @@
         <div class="name">마사 디어우즈</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -195,7 +196,7 @@
         <div class="name">코델 하트</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -219,7 +220,7 @@
         <div class="name">막시민 터너</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar5"></div></div><span class="now">5</span>
@@ -244,7 +245,7 @@
         <div class="name">버니 앤더슨</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -269,7 +270,7 @@
         <div class="name">블레이크</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -294,7 +295,7 @@
         <div class="name">아니카</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -311,7 +312,7 @@
                     </td></tr>
                 <th>소지품</th>
                     <tr><td>
-                        
+                        <span class="item">야매약<p class="popup">체력 +2, 정신 -2</p></span>
                 
                         <span class="item">야매약<p class="popup">체력 +2, 정신 -2</p></span>
                     </td></tr>
@@ -324,7 +325,7 @@
         <div class="name">마티아스 데그리외</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -353,7 +354,7 @@
         <div class="name">아서 캔드릭</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar5"></div></div><span class="now">5</span>
@@ -379,7 +380,7 @@
         <div class="name">길버트 번즈</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -407,7 +408,7 @@
                 <span style="font-weight:800; color:797676;">허기</span><div class="bar_box"><div class="bar0" style="background-color:#575757;"></div></div><span class="now0" style="color:#575757;">0</span>
             </div>
             <div class="health"><!-- 체력 -->
-                체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
+                체력<div class="bar_box" style="background-color:#3d473c;"><div class="bar4" style="background-color:#575757;"></div></div><span class="now">4</span>
             </div>
             <div class="mental"><!-- 정신 -->
                 <span class="stat0"  style="font-weight:800; color:#797676;">정신</span><div class="bar_box"><div class="bar0"  style="background-color:#575757;"></div></div><span class="now0" style="color:#575757;">0</span>
@@ -458,7 +459,7 @@
     <div class="name">이벨리아 메일</div><!-- 이름 -->
     <div class="state">
         <div class="hunger"><!-- 허기 -->
-            허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+            허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
         </div>
         <div class="health"><!-- 체력 -->
             체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -482,7 +483,7 @@
     <div class="name">오클리 밀러</div><!-- 이름 -->
     <div class="state">
         <div class="hunger"><!-- 허기 -->
-            허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+            허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
         </div>
         <div class="health"><!-- 체력 -->
             체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -505,7 +506,7 @@
         <div class="name">칼럼</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -529,7 +530,7 @@
         <div class="name">이비 힐</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -553,7 +554,7 @@
         <div class="name">록우드</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -578,7 +579,7 @@
         <div class="name">호러스 엘던</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -602,7 +603,7 @@
         <div class="name">마틴 굿먼</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -625,7 +626,7 @@
         <div class="name">마리블린</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -649,7 +650,7 @@
         <div class="name">새넌</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar6"></div></div><span class="now">6</span>
@@ -673,7 +674,7 @@
         <div class="name">화란</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 <span style="font-weight:800; color:#c91e00;">체력</span><div class="bar_box"><div class="bar0"></div></div><span class="now0">0</span>
@@ -697,7 +698,7 @@
         <div class="name">빅토리아 일럼</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar5"></div></div><span class="now">5</span>
@@ -721,7 +722,7 @@
         <div class="name">존 레녹</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -745,7 +746,7 @@
         <div class="name">제이</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -768,7 +769,7 @@
         <div class="name">크리스틴</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -792,7 +793,7 @@
         <div class="name">에릭 와이즈</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -817,7 +818,7 @@
         <div class="name">베로니카</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -841,7 +842,7 @@
         <div class="name">로드 에크하르트</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -866,7 +867,7 @@
             <div class="name">프랜시스 드레이크</div><!-- 이름 -->
             <div class="state">
                 <div class="hunger"><!-- 허기 -->
-        허기<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
+        허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
                         </div>
                 <div class="health"><!-- 체력 -->
                     체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -889,7 +890,7 @@
         <div class="name">실베스타 K 폴로</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -912,7 +913,7 @@
         <div class="name">헤이즈 헌터</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar6"></div></div><span class="now">6</span>
@@ -925,6 +926,7 @@
             <table>
                 <th>상태</th><tr><td style="text-align:center"><span>수면 불가</span></td></tr>
                 <th>소지품</th><tr><td>
+                    <span class="item">양주<p class="popup">마실 경우 체력 -1, 정신 +1<br>상처에 사용할 경우 체력 +1, 정신 -1</p></span>
                 </td></tr>
             </table>
         </div><!-- .have(상태 및 소지품) 끝 -->
@@ -959,7 +961,7 @@
         <div class="name">Miquel</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -983,10 +985,10 @@
         <div class="name">엠마 마이어스</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
-                체력<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+                체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
             </div>
             <div class="mental"><!-- 정신 -->
                 정신<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
@@ -1007,7 +1009,7 @@
         <div class="name">에단 핀</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -1030,7 +1032,7 @@
         <div class="name">렝게 C. 클랩튼</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -1054,7 +1056,7 @@
         <div class="name">클라인</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
+    허기<div class="bar_box"><div class="bar1"></div></div><span class="now">1</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar4"></div></div><span class="now">4</span>
@@ -1078,7 +1080,7 @@
         <div class="name">틸카프 토소넨</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-    허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+    허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
                     </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
@@ -1101,7 +1103,7 @@
         <div class="name">빈</div><!-- 이름 -->
         <div class="state">
             <div class="hunger"><!-- 허기 -->
-                허기<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
+                허기<div class="bar_box"><div class="bar2"></div></div><span class="now">2</span>
             </div>
             <div class="health"><!-- 체력 -->
                 체력<div class="bar_box"><div class="bar3"></div></div><span class="now">3</span>
